@@ -1,5 +1,8 @@
 #!/bin/bash
 
+. ~/.nvm/nvm.sh
+nvm use 0.10
+
 export INSIGHT_NETWORK=testnet
 export BITCOIND_HOST=127.0.0.1
 export BITCOIND_PORT=18332
